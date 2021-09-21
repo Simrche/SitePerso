@@ -192,6 +192,27 @@
     background-size: 100%;
 }
 
+.ecologie {
+    background-image: url(../img/tree.jpg);
+    background-position-y: center;
+    background-position-x: 50px;
+    background-size: 100%;
+}
+
+.plane {
+    background-image: url(../img/plane.jpg);
+    background-position-y: center;
+    background-position-x: 50px;
+    background-size: 100%;
+}
+
+.videogame {
+    background-image: url(../img/videogame.jpg);
+    background-position-y: center;
+    background-position-x: 50px;
+    background-size: 100%;
+}
+
 /* ------------------------------------------ THIRD SECTION -------------------------------------------------- */
 
 #CV {
@@ -254,6 +275,7 @@
     border: black 2px solid;
     transition: 0.75s;
     background-color: rgb(235, 235, 235);
+    color: black;
 }
 
 #pp {
