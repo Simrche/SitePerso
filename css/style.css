@@ -1,0 +1,266 @@
+/* ------------------------------------------ ALL -------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.blue {
+    color: rgb(0, 12, 124);
+}
+
+.red {
+    color: rgb(116, 12, 12);
+}
+
+.green {
+    color: rgb(65, 100, 53);
+}
+
+.aos-animate {
+    display: none;
+}
+
+/* ------------------------------------------ FIRST SECTION -------------------------------------------------- */
+
+#header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/fond.jpg);
+    background-size: 100%;
+}
+
+#title {
+    color: rgb(235, 235, 235);
+    font-size: 50px;
+    font-family: poppins;
+    padding-top: 15%;
+    margin-left: 5%;
+    height: 70px;
+}
+
+@media screen and (max-width: 1100px) {
+    #title {
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #title {
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #title {
+        height: 400px;
+    }
+}
+
+#discover {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#discover button {
+    margin-top: 20%;
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: poppins;
+    border: rgb(235, 235, 235) solid 2px;
+    color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+#discover button:hover {
+    background-color: rgb(235, 235, 235);
+    color: black;
+    border: solid black 2px;
+    transition: 0.35s;
+}
+
+.whiteFond {
+    background: rgb(235, 235, 235);
+    color: black;
+    padding: 0 5px;
+}
+
+.whiteFond2 {
+    background: rgb(235, 235, 235);
+    color: rgb(65, 100, 53);
+}
+
+.whiteFond3 {
+    background: rgb(235, 235, 235);
+    color: rgb(116, 12, 12);
+}
+
+.whiteFond4 {
+    background: rgb(235, 235, 235);
+    color: rgb(255, 174, 0);
+}
+
+.whiteFond5 {
+    background: rgb(235, 235, 235);
+    color: rgb(0, 12, 124);
+}
+
+#socialMedia {
+    margin-left: 5%;
+}
+
+#socialMedia img{
+    width: 50px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 50%;
+    border: 1px rgb(235, 235, 235) solid;
+    margin-left: 5px;
+}
+
+#socialMedia img:hover {
+    border: black 1px solid;
+    transition: 0.5s;
+}
+
+/* ------------------------------------------ SECOND SECTION -------------------------------------------------- */
+
+#myProject {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../img/fond4.jpg);
+    background-size: 100%;
+}
+
+.project {
+    border: rgb(235, 235, 235) 2px solid;
+    height: 75px;
+    width: 45%;
+    margin-top: 50px;
+    color: rgb(235, 235, 235);
+    font-family: poppins;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project h3 {
+    background-color: black;
+    padding: 0 5px;
+}
+
+.project h3 span {
+    padding: 0 5px;
+}
+
+.project:hover {
+    background-color: rgb(235, 235, 235);
+    border: black solid 2px;
+    transition: 0.75s;
+}
+
+#myProjectContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titleProject {
+    font-size: 35px;
+    color: rgb(235, 235, 235);
+    margin-top: 100px;
+    font-family: poppins;
+    padding-bottom: 40px;
+}
+
+.cms {
+    background-image: url(../img/cinema.jpg);
+    background-position-y: 230px;
+    background-position-x: 50px;
+    background-size: 100%;
+}
+
+.front {
+    background-image: url(../img/foot.jpg);
+    background-position-y: 230px;
+    background-position-x: 50px;
+    background-size: 100%;
+}
+
+/* ------------------------------------------ THIRD SECTION -------------------------------------------------- */
+
+#CV {
+    min-height: 100vh;
+    font-family: poppins;
+    background-image: url(../img/fond6.jpg);
+    background-size: 100%;
+    background-position-y: center;
+}
+
+#cvContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+#cvLeft {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+#cvRight {
+    width: 40%;
+    color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+}
+
+#cvRight img {
+    width: 25%;
+    background-color: rgb(235, 235, 235);
+    border-radius: 50%;
+    border: rgb(235, 235, 235) 2px solid;
+}
+
+#cvRight h2 {
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+#cvRight a {
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    font-family: poppins;
+    border: rgb(235, 235, 235) solid 2px;
+    color: rgb(235, 235, 235);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#cvRight a:hover {
+    border: black 2px solid;
+    transition: 0.75s;
+    background-color: rgb(235, 235, 235);
+}
+
+#pp {
+    width: 50%;
+}
+
+#pdfCv {
+    width: 100%;
+    height: 100vh;
+}
