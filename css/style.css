@@ -29,8 +29,9 @@
     height: 100vh;
     width: 100%;
     background-image: url(../img/fond.jpg);
-    background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 #title {
@@ -40,24 +41,6 @@
     padding-top: 15%;
     margin-left: 5%;
     height: 70px;
-}
-
-@media screen and (max-width: 1100px) {
-    #title {
-        height: 160px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    #title {
-        height: 260px;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    #title {
-        height: 400px;
-    }
 }
 
 #discover {
@@ -134,7 +117,8 @@
     min-height: 100vh;
     width: 100%;
     background-image: url(../img/fond4.jpg);
-    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 .project {
@@ -220,7 +204,7 @@
     min-height: 100vh;
     font-family: poppins;
     background-image: url(../img/fond6.jpg);
-    background-size: 100%;
+    background-position-x: center;
     background-position-y: center;
 }
 
@@ -241,6 +225,7 @@
 #cvLeft img {
     border-radius: 50%;
     border: solid rgb(235, 235, 235) 2px;
+    width: 40%;
 }
 
 #cvRight {
@@ -294,6 +279,27 @@
     height: 100vh;
 }
 
+/* ANIMATION TEXT */
+
+@media screen and (max-width: 1100px) {
+    #title {
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #title {
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #title {
+        height: 400px;
+    }
+}
+
+/* SECTION 3 RESPONSIVE */
 
 @media screen and (max-width: 800px) {
     #cvLeft {
@@ -308,5 +314,13 @@
         width: 100%;
         display: flex;
         align-items: center;
+    }
+}
+
+/* SECTION 2 RESPONSIVE */
+
+@media screen and (max-width: 800px) {
+    #myProject {
+        padding-bottom: 50px;
     }
 }
