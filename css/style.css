@@ -8,15 +8,21 @@
 }
 
 .blue {
-    color: rgb(0, 12, 124);
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
 }
 
 .red {
-    color: rgb(116, 12, 12);
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
 }
 
 .green {
-    color: rgb(65, 100, 53);
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
 }
 
 .aos-animate {
@@ -121,7 +127,7 @@
 }
 
 .project {
-    border: rgb(235, 235, 235) 2px solid;
+    border: black 1px solid;
     height: 75px;
     width: 45%;
     margin-top: 50px;
@@ -136,6 +142,7 @@
 .project h3 {
     background-color: black;
     padding: 5px 10px;
+    font-size: 20px;
 }
 
 .project h3 span {
@@ -144,7 +151,7 @@
 
 .project:hover {
     background-color: rgb(235, 235, 235);
-    border: black solid 2px;
+    border: rgb(235, 235, 235) solid 1px;
     transition: 0.3s!important;
 }
 
@@ -223,7 +230,6 @@
 
 #cvLeft img {
     border-radius: 50%;
-    border: solid rgb(235, 235, 235) 2px;
     width: 40%;
 }
 
