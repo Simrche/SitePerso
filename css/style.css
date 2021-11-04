@@ -29,6 +29,10 @@
     display: none;
 }
 
+.rouge {
+    color: red;
+}
+
 /* ------------------------------------------ FIRST SECTION -------------------------------------------------- */
 
 #header {
@@ -183,8 +187,8 @@
     background-size: 100%;
 }
 
-.ecologie {
-    background-image: url(../img/tree.jpg);
+.generateur {
+    background-image: url(../img/de.jpeg);
     background-position-y: center;
     background-position-x: 50px;
     background-size: 100%;
@@ -282,6 +286,75 @@
 #pdfCv {
     width: 100%;
     height: 100vh;
+}
+
+/* CINENEWS */
+
+#oneProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/fond.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    min-height: 100vh;
+}
+
+#oneProject h1 {
+    font-family: "Poppins";
+    font-size: 64px;
+    color: white;
+    margin-top: 24px;
+}
+
+#oneProject p {
+    color: white;
+    font-family: "poppins";
+    font-family: 24px;
+    padding-left: 15px;
+}
+
+#description {
+    width: 60%;
+    background-color: black;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#image {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#image img {
+    width: 100%;
+}
+
+#imageEarly {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#imageEarly img {
+    width: 70%;
+    margin-top: 25px;
+}
+
+#retour {
+    color: white;
+    font-family: "poppins";
+    font-size: 16px;
+    position: absolute;
+    left: 20%;
+    top: 6%;
+    padding-left: 15px;
 }
 
 /* ANIMATION TEXT */
