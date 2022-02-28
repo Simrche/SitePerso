@@ -107,7 +107,7 @@
     margin-left: 5%;
 }
 
-#socialMedia img{
+#socialMedia img {
     width: 50px;
     background-color: rgb(235, 235, 235);
     border-radius: 50%;
@@ -156,7 +156,7 @@
 .project:hover {
     background-color: rgb(235, 235, 235);
     border: rgb(235, 235, 235) solid 1px;
-    transition: 0.3s!important;
+    transition: 0.3s !important;
 }
 
 #myProjectContainer {
@@ -201,11 +201,16 @@
     background-size: 100%;
 }
 
-.videogame {
-    background-image: url(../img/videogame.jpg);
+.discord {
+    background-image: url(../img/discord.jpg);
     background-position-y: center;
-    background-position-x: 50px;
-    background-size: 100%;
+    background-position-x: 100px;
+    background-size: 75%;
+}
+
+.projectTitle {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* ------------------------------------------ THIRD SECTION -------------------------------------------------- */
@@ -377,6 +382,7 @@
     font-family: Poppins;
     border-radius: 15px;
     font-size: 16px;
+    cursor: pointer;
 }
 
 #ville {
@@ -412,7 +418,7 @@
     #cvLeft {
         width: 100%;
     }
-    
+
     #cvLeft img {
         width: 40%;
     }
